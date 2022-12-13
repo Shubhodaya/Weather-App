@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Advanced Weather App</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700&family=Ubuntu&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/a2488e80f3.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="weather-app">
+    <div class="container">
+      <h3 class="brand">the weather</h3>
+      <div>
+        <h1 class="temp">16&#176;</h1>
+
+        <div class="city-time">
+          <h1 class="name">London</h1>
+          <small>
+            <span class="time">06:09</span>
+            -
+            <span class="date">Monday Sep 19</span>
+          </small>
+        </div>
+        <div class="weather">
+          <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50">
+          <span class="condition">Cloudy</span>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <form id="locationInput" class="searchBar">
+        <input type="text" class="search" placeholder="Search Location...">
+        <button type="submit" class="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <ul class="cities">
+        <li class="city">Kolkata</li>
+        <li class="city">Berlin</li>
+        <li class="city">New York</li>
+        <li class="city">California</li>
+        <li class="city">Paris</li>
+        <li class="city">Tokyo</li>
+      </ul>
+      <ul class="details">
+        <h4>Weather Details</h4>
+        <li>
+          <span>Cloudy</span>
+          <span class="cloud">89%</span>
+        </li>
+        <li>
+          <span>Humidity</span>
+          <span class="humidity">64%</span>
+        </li>
+        <li>
+          <span>Wind</span>
+          <span class="wind">8km/h</span>
+        </li>
+
+      </ul>
+    </div>
+    <footer class="footlove">Made with ❤️ by Shubhodaya</footer>
+  </div>
+
+
+
+<script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
