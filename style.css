@@ -72,7 +72,7 @@ margin: 0 1em;
   top: 0;
   right: 0;
   background: rgba(110,110,110,0.25);
-  box-shadow: 0 8px 32px 0
+  box-shadow: 0 0.5rem 2rem 0 /*px*/
   rgba(0,0,0,0.3);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -168,7 +168,7 @@ margin: 0 1em;
 }
 @media screen and ( max-width: 500px){
   html{
-    font-size: 20px;
+    font-size: 1.25rem;/*px*/
   }
 }
 @media screen and (max-width: 300px) {
