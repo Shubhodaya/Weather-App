@@ -158,7 +158,7 @@ margin: 0 1em;
   opacity: 0.5;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 10280px) {
 
 .panel, .container{
   position: relative;
