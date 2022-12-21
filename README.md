@@ -1,5 +1,5 @@
 # <p style="text-align: center;"> Weather-booth </p>
-<p style="text-align: center;"> API tester using Python </p>
+<p style="text-align: center;"> Weather Application using HTML,CSS ,Js </p>
 
 ***
 ### About the project
